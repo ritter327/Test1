@@ -1,7 +1,10 @@
 public class RockPaperScissors {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-        //Instantiate GameManager Class member
+    private static GameManager gameManager;
 
+    public static void main(String[] args) {
+
+        //Instantiate GameManager Class member
+        gameManager = new GameManager();
+        gameManager.runGame();
     }
 }
